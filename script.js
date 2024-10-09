@@ -43,3 +43,4 @@ document.addEventListener("scroll", () => {
   }
   currScroll = window.scrollY;
 });
+

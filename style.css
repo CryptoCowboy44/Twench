@@ -52,6 +52,8 @@
   
   .fredoka {
     font-family: var(--fredoka-font);
+    margin-inline: 0;
+      width: 100%;
   }
   
   .navigation {
@@ -122,6 +124,8 @@
     width: 8em;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    margin-inline: 0;
+      width: 100%;
   }
   
   .link.coming_soon:hover::before,
@@ -205,7 +209,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.25rem;
-    margin-bottom: min(20vh, 6.5rem);
+    margin-bottom: min(8vh, 6.5rem);
   }
   .about p {
     max-width: 10em;
@@ -286,7 +290,7 @@
   }
   
   .buy_step .title {
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 700;
     margin-bottom: 0.3rem;
   }
@@ -294,6 +298,8 @@
   .buy_step .desc {
     font-size: 0.75rem;
     font-weight: 400;
+    margin-inline: 0;
+      width: 100%;
   }
   
   .footer {
@@ -379,7 +385,7 @@
       background-size: cover;
     }
     .about h2 {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
     .about p {
       max-width: 35em;
@@ -428,10 +434,12 @@
       width: 100%;
     }
     .buy_step .title {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     .buy_step .desc {
       font-size: 1.1rem;
+      margin-inline: 0;
+      width: 100%;
     }
   
     .footer {

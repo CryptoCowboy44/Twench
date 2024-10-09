@@ -89,6 +89,18 @@
         <p class="fredoka desc">
           Today Is Our Day To Rise Up And Break Free From The Trenches!
         </p>
+        <br>
+        <input type="text" value="GuFmsJrhxo9iVX7WpKGQ4kYg6yofMJLpWPypHM44pump" id="myInput">
+        <button onclick="myFunction()">Copy CA</button>
+        
+        <br><br>
+        <br>
+        <a href="https://twench.itch.io/twench-run" style="color: white; font-size: x-large;">Open Game</a>
+        
+
+        
+        
+
       </section>
       <div class="marquee_container">
         <div class="marquee flog_text_marquee"></div>
@@ -116,7 +128,7 @@
         <div class="content">
           <div class="buy_step">
             <h3 class="title">HOW TO BUY $TWENCH</h3><br>
-            <h3 class="title">01. Create Wallet</h3>
+            <h3 class="title">01. CREATE WALLET</h3>
             <p class="desc">
               Download Phantom or your wallet of choice from the app store or
               Google Play for free. Desktop users, download the Google Chrome
@@ -146,6 +158,11 @@
               worry about buying with a specific slippage.
             </p>
           </div>
+          <div class="buy_step">
+            <h3 class="title"></h3>
+            
+          </div>
+          
         </div>
       </section>
       <!----------
@@ -213,5 +230,21 @@
       </nav>
     </footer>
     <script src="./script.js" defer></script>
+    <script>
+      function myFunction() {
+        // Get the text field
+        var copyText = document.getElementById("myInput");
+      
+        // Select the text field
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
+      
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText.value);
+        
+        // Alert the copied text
+        alert("Copied the text: " + copyText.value);
+      }
+      </script>
   </body>
 </html>
