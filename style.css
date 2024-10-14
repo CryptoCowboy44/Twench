@@ -187,7 +187,7 @@
   }
   
   .about {
-    padding-block: min(6.25rem, 20vh);
+    padding-block: min(6.0rem, 20vh);
     background-image: url(./assets/gradient-about.png),
       url(./assets/abuout-sm.png);
     background-position: top left, top left;
@@ -212,8 +212,8 @@
     margin-bottom: min(8vh, 6.5rem);
   }
   .about p {
-    max-width: 10em;
-    font-size: 1.5rem;
+    max-width: 12em;
+    font-size: 1.7rem;
     margin-inline: auto;
     font-weight: 300;
   }
